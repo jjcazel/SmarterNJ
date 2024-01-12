@@ -1,0 +1,34 @@
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+
+#navLeftContainer {
+  display: flex;
+  margin-top: 5px;
+}
+
+#leftNavText {
+  margin-left: 5px;
+}
+
+#navRightContainer {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.njHeaderLink {
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+  }
+}
