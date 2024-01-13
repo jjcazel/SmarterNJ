@@ -1,30 +1,28 @@
 import { useEffect } from "react";
 
 import "../styles/SubNavigation.css";
-import NJLogo from "../../public/NJLogo.png";
+import NJLogo from "/NJLogo.png";
 
 export function SubNavigation() {
-   useEffect(() => {
-     // Get the current pathname
-     const currentPath = window.location.pathname;
+  useEffect(() => {
+    // Get the current pathname
+    const currentPath = window.location.pathname;
+    // Get all anchor tags with the class 'navLink'
+    const links = document.querySelectorAll(".navLink");
+    // Loop through the links and add a class if the href matches the current path
+    links.forEach((link) => {
+      if (link.getAttribute("href") === currentPath) {
+        link.classList.add("activeLink");
+      }
+    });
+    // Cleanup: Remove the 'activeLink' class when the component unmounts
+    return () => {
+      links.forEach((link) => {
+        link.classList.remove("activeLink");
+      });
+    };
+  }, []);
 
-     // Get all anchor tags with the class 'navLink'
-     const links = document.querySelectorAll(".navLink");
-
-     // Loop through the links and add a class if the href matches the current path
-     links.forEach((link) => {
-       if (link.getAttribute("href") === currentPath) {
-         link.classList.add("activeLink");
-       }
-     });
-
-     // Cleanup: Remove the 'activeLink' class when the component unmounts
-     return () => {
-       links.forEach((link) => {
-         link.classList.remove("activeLink");
-       });
-     };
-   }, []); 
   return (
     <nav>
       <div className="subNav-left">
@@ -35,10 +33,7 @@ export function SubNavigation() {
         <a href="/" className="navLink">
           Home
         </a>
-        <a
-          href="/news"
-          className="navLink"
-        >
+        <a href="/news" className="navLink">
           News
         </a>
         <a

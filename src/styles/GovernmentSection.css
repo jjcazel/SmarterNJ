@@ -1,0 +1,31 @@
+section {
+  height: auto;
+  background-color: #1980c8;
+  padding-bottom: 30px;
+  margin-top: 60px;
+}
+
+.heading {
+  font-size: 3rem;
+  padding-top: 30px;
+  line-height: 1;
+}
+
+.subText {
+  font-size: 1.125rem;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.rightContainer {
+  width: 40%;
+  padding: 0 0 0 5.6em;
+}
+
+.getInTouchButton {
+  background-color: #fff;
+  color: #1980c8;
+  padding: 9px 15px;
+  font-size: 20px;
+}
