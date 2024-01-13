@@ -1,24 +1,29 @@
-
 .main-navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.87);
   width: 100%;
   height: 60px;
-  padding-left: 100px;
-  padding-right: 20px;
+  padding: 0 6em;
+  background-color: rgb(51, 51, 51);
 }
 
 #navLeftContainer {
-  display: flex;
   margin-top: 5px;
 }
 
 #leftNavText {
+  display: flex;
+  align-items: center;
   margin-left: 5px;
 }
 
 #navRightContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
   font-size: 15px;
   font-weight: 700;
 }
@@ -27,8 +32,19 @@
   display: flex;
   color: inherit;
   text-decoration: none;
+}
 
-  &:hover {
-    color: inherit;
-  }
+#bold {
+  font-weight: 700;
+}
+
+.subLink {
+  font-size: 14px;
+  color: inherit;
+  padding: 0 10px;
+  border-right: 1px solid;
+}
+
+.subLink:last-child {
+  border-right: none; /* Remove right border for the last child */
 }

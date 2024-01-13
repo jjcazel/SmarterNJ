@@ -1,0 +1,39 @@
+nav {
+  padding: 40px 0 10px 0;
+  color: #333333;
+}
+
+.njLogo {
+  width: 67px;
+  height: 67px;
+}
+
+.subNav-left {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(185, 185, 185, 0.5);
+  padding: 0 0 0 2em;
+  font-size: 48px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+}
+
+#smarterNJTitle {
+  margin-left: 28px;
+}
+
+.linksContainer {
+  display: flex;
+  padding: 0 0 0 5.6em;
+  border-bottom: 1px solid rgba(185, 185, 185, 0.5);
+}
+
+.navLink {
+  color: #6b6b6b;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+.navLink.activeLink {
+  color: #0082f3;
+}

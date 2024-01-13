@@ -1,8 +1,7 @@
-import '../styles/MainNavigation.css';
-import NJCrestLogo from '../assets/NJCrestLogo.png';
+import "../styles/MainNavigation.css";
+import NJCrestLogo from "../assets/NJCrestLogo.png";
 
-function MainNavigation() {
-
+export function MainNavigation() {
   return (
     <nav
       className="main-navigation"
@@ -12,15 +11,47 @@ function MainNavigation() {
     >
       <div id="navLeftContainer">
         <a href="https://nj.gov/" target="_blank" className="njHeaderLink">
-          <img src={NJCrestLogo}></img>
+          <img id="njCrestLogo" src={NJCrestLogo}></img>
           <div id="leftNavText">OFFICIAL SITE OF THE STATE OF NEW JERSEY</div>
         </a>
       </div>
       <div id="navRightContainer">
-        <div>Governor Phil Murphy • Lt. Governor Sheila Oliver</div>
+        <a
+          id="bold"
+          href="https://nj.gov/"
+          target="_blank"
+          className="njHeaderLink"
+        >
+          Governor Phil Murphy • Lt. Governor Sheila Oliver
+        </a>
+        <div>
+          <a href="https://nj.gov/" target="_blank" className="subLink">
+            NJ.gov
+          </a>
+          <a
+            href="https://nj.gov/nj/gov/deptserv/alphaserv.html"
+            target="_blank"
+            className="subLink"
+          >
+            Services
+          </a>
+          <a
+            href="https://nj.gov/subscribe/"
+            target="_blank"
+            className="subLink"
+          >
+            Get Updates
+          </a>
+          <a
+            href="https://nj.gov/nj/gov/deptserv/"
+            target="_blank"
+            className="subLink"
+          >
+            Agencies
+          </a>
+        </div>
       </div>
     </nav>
   );
 }
 
-export default MainNavigation;
