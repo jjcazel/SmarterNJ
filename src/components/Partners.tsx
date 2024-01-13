@@ -23,7 +23,11 @@ export function Partners() {
         <br /> Commissioner, New Jersey Department of Health
       </p>
       <div className="partnerLogoSection">
-        <img src={NjDeptHealth} alt="Image Not Found" className="partnerImg First" />
+        <img
+          src={NjDeptHealth}
+          alt="Image Not Found"
+          className="partnerImg First"
+        />
         <img src={Environment} alt="Image Not Found" className="partnerImg" />
         <img src={DOL} alt="Image Not Found" className="partnerImg" />
         <img src={RSA} alt="Image Not Found" className="partnerImg" />
