@@ -1,14 +1,36 @@
-section {
+.blueBanner {
+  display: flex;
   height: auto;
   background-color: #1980c8;
-  padding-bottom: 30px;
+  padding: 0 0 30px 5.6em;
   margin-top: 60px;
+  &.Bottom {
+    padding: 48px 20px 48px 100px;
+  }
+}
+
+.whiteBanner {
+  padding: 100px 0;
+  margin: 0 10em;
+}
+
+.midBanner {
+  display: flex;
+}
+
+.flexRight {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 25px 60px 0 0;
+  margin-left: 8em;
 }
 
 .heading {
   font-size: 3rem;
   padding-top: 30px;
-  line-height: 1;
+  line-height: 1.2;
+  color: white;
 }
 
 .subText {
@@ -20,7 +42,6 @@ section {
 
 .rightContainer {
   width: 40%;
-  padding: 0 0 0 5.6em;
 }
 
 .getInTouchButton {
@@ -28,4 +49,32 @@ section {
   color: #1980c8;
   padding: 9px 15px;
   font-size: 20px;
+}
+
+.genericPeople {
+  width: 40em;
+}
+
+.boldPara {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.lowerPara {
+  font-size: 1.5rem;
+  margin-top: 56px;
+  font-weight: 300;
+}
+
+.directionalImage {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.explainer {
+  margin: 0 50px;
+  font-size: 2rem;
+  line-height: 1.25;
+  color: #fff;
 }
