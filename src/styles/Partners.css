@@ -17,6 +17,7 @@
   text-align: left;
   width: 60%;
   margin-left: auto;
+  padding: 40px 0;
 }
 
 .partnerLogoSection {
@@ -45,7 +46,7 @@
 
   .quoter {
     margin: 0;
-    padding: 40px 0;
+
     width: auto;
   }
 
