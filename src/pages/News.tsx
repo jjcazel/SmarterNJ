@@ -29,7 +29,7 @@ export function NewsPage() {
     };
     const queryParams = new URLSearchParams(newsFetchRequestParams);
 
-    fetch(`http://eventregistry.org/api/v1/article/getArticles?${queryParams}`)
+    fetch(`https://eventregistry.org/api/v1/article/getArticles?${queryParams}`)
       .then((res) => res.json())
       .then((data) => {
         // Handle the parsed JSON data here
