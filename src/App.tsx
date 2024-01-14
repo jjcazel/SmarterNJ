@@ -14,7 +14,7 @@ function App() {
         <SubNavigation />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/news" element={<NewsPage />} />
+          <Route path="news" element={<NewsPage />} />
         </Routes>
       </>
     </Router>
