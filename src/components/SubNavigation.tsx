@@ -35,7 +35,7 @@ export function SubNavigation() {
           <a href="#/" className="navLink">
             Home
           </a>
-          <a href="#/news" className="navLink">
+          <a href="/#news" className="navLink">
             News
           </a>
           <a
