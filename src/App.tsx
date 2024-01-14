@@ -4,6 +4,7 @@ import "./App.css";
 import { MainNavigation } from "./components/MainNavigation";
 import { SubNavigation } from "./components/SubNavigation";
 import { Home } from "./pages/Home";
+import { NewsPage } from "./pages/News";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <SubNavigation />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/news" element={<NewsPage />} />
           {/* Add more routes for other pages */}
         </Routes>
       </>
