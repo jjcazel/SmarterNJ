@@ -32,10 +32,10 @@ export function SubNavigation() {
       <div className="mobileLinksContainer">
         {" "}
         <div className="linksContainer">
-          <a href="/" className="navLink">
+          <a href="#/" className="navLink">
             Home
           </a>
-          <a href="/news" className="navLink">
+          <a href="#/news" className="navLink">
             News
           </a>
           <a
