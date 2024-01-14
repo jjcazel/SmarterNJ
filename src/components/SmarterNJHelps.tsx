@@ -9,7 +9,7 @@ export function SmarterNJHelps() {
       <h1>How does SmarterNJ help?</h1>
       <div className="gridContainer">
         <div className="column">
-          <h2>Problem Identification</h2>
+          <h2 className="gridHeader">Problem Identification</h2>
           <img
             src={bookAndMagGlass}
             alt="Image Not Found"
@@ -21,7 +21,7 @@ export function SmarterNJHelps() {
           </p>
         </div>
         <div className="column">
-          <h2>Solution Identification</h2>
+          <h2 className="gridHeader">Solution Identification</h2>
           <img
             src={lightBulb}
             alt="Image Not Found"
@@ -34,7 +34,7 @@ export function SmarterNJHelps() {
           </p>
         </div>
         <div className="column">
-          <h2>Assessment</h2>
+          <h2 className="gridHeader">Assessment</h2>
           <img
             src={thumbsUp}
             alt="Image Not Found"

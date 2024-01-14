@@ -22,6 +22,7 @@
 .partnerLogoSection {
   display: flex;
   justify-content: space-between;
+  padding: 60px 0;
 }
 
 .partnerImg {
@@ -30,5 +31,30 @@
 
   &.First {
     max-height: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .quote {
+    padding: 0;
+  }
+
+  .partnersSection {
+    padding: 60px 20px 26px 2em;
+  }
+
+  .quoter {
+    margin: 0;
+    padding: 40px 0;
+    width: auto;
+  }
+
+  .partnerLogoSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partnerImg {
+    padding-bottom: 40px;
   }
 }

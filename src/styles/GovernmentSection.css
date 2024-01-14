@@ -2,7 +2,7 @@
   display: flex;
   height: auto;
   background-color: #1980c8;
-  padding: 0 0 30px 6em;
+  padding: 0 0 100px 6em;
   margin-top: 60px;
 
   &.Bottom {
@@ -39,10 +39,10 @@
   font-size: 1.125rem;
   color: #fff;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-.rightContainer {
+.leftContainer {
   width: 40%;
 }
 
@@ -93,12 +93,16 @@
   .blueBanner {
     margin-top: 0;
     padding-left: 2em;
-    width: max-content;
+    padding-right: 1rem;
 
-    &.bottom {
+    &.Bottom {
       width: auto;
-      padding-left: 20px;
+      padding: 60px 20px 100px 20px;
     }
+  }
+
+  .heading {
+    font-size: 2.4em;
   }
 
   .midBanner {
@@ -114,5 +118,18 @@
     width: 100%;
     padding: 0;
     margin: auto;
+  }
+
+  .leftContainer {
+    width: 100%;
+  }
+
+  .directionalImage {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .explainer {
+    line-height: 1.5;
   }
 }

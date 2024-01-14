@@ -10,7 +10,7 @@ h1 {
   color: #333333;
 }
 
-h2 {
+.gridHeader {
   font-size: 2rem;
   font-weight: 500;
   color: #333333;
@@ -43,4 +43,16 @@ h2 {
 
 p {
   font-size: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+  .greySection {
+    margin: 0;
+    padding: 60px 20px 60px 1.5em;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+  }
 }

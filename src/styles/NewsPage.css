@@ -1,4 +1,6 @@
 .newsContainer {
+  display: flex;
+  flex-direction: column;
   padding: 100px 0;
 }
 
@@ -6,14 +8,10 @@
   width: 100%;
   max-width: 80rem;
   justify-content: center;
-  margin: 4rem auto 0 auto;
-  padding-left: 100px;
-  padding-right: 20px;
+  padding: 4rem 40px 0 100px;
 }
 
 .titles {
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 100px;
   padding-right: 20px;
 }
@@ -91,7 +89,6 @@ p {
 
   .newsItemsContainer {
     padding-left: 20px;
-    padding-right: 20px;
   }
 
   .articleTileRight {

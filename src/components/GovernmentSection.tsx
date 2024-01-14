@@ -6,7 +6,7 @@ export function GovernmentSection() {
   return (
     <>
       <section className="blueBanner">
-        <div className="rightContainer">
+        <div className="leftContainer">
           <div className="heading">
             Government of the people, for the people, <b>with</b> the people.
           </div>
