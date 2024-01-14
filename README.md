@@ -4,7 +4,7 @@ I created this project in tandem with my submission for the [full-stack software
 
 I created the UI using React + Vite + TypeScript + CSS. I used standard functional components while using React hooks to either update styling classes conditionally or to fetch an API and manage the returned data. I'm hosting this on Github Pages and you can view my code [here](https://github.com/jjcazel/jjcazel.github.io).
 
-Please note that I had to use the `React-DOM HashRouter` due to routing limitations on GitHub Pages. If you'd like to run the code locally and/or make a PR for improvements please use the `BrowserRouter` in the `App.tsx` file to run the code locally in a dev environment. Thanks!
+Please note that I had to use the `React-DOM HashRouter` due to routing limitations on GitHub Pages. If you'd like to run the code locally and/or make a PR for improvements please use the `BrowserRouter` in the `App.tsx` file after cloning so the routes will work in a dev environment. Thanks!
 
 ## My code to fetch the News API
 
