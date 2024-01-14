@@ -34,7 +34,7 @@ nav {
   font-size: 1.25rem;
 }
 
-.navLink.activeLink {
+.navLink.active {
   color: #0082f3;
 }
 
@@ -73,7 +73,7 @@ nav {
     font-size: 0.9rem; /* Adjust the font size for the links */
   }
 
-  .navLink.activeLink {
+  .navLink.active {
     color: #0082f3;
   }
 }
