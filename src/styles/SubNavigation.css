@@ -1,3 +1,4 @@
+
 nav {
   padding: 40px 0 0 0;
   color: #333333;
@@ -36,4 +37,44 @@ nav {
 
 .navLink.activeLink {
   color: #0082f3;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    padding: 20px 0 0 0; /* Adjust the padding for the main nav */
+  }
+
+  .subNav-left {
+    padding: 0 0 0 2rem;
+    font-size: 2em; /* Adjust the font size as needed */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.5);
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+  }
+
+  .njLogo {
+    width: 50px; /* Adjust the logo size for mobile screens */
+    height: 50px;
+  }
+
+  #smarterNJTitle {
+    margin-left: 15px; /* Adjust the margin for the title */
+  }
+
+  .linksContainer {
+    padding: 0 0 0 2em; /* Adjust the padding for links container */
+    /* display: none; */
+  }
+
+  .navLink {
+    color: #6b6b6b;
+    padding: 8px; /* Adjust the padding for the links */
+    font-size: 0.9rem; /* Adjust the font size for the links */
+  }
+
+  .navLink.activeLink {
+    color: #0082f3;
+  }
 }

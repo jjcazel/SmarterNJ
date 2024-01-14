@@ -29,20 +29,23 @@ export function SubNavigation() {
         <img src={NJLogo} className="njLogo" />
         <header id="smarterNJTitle">SmarterNJ</header>
       </div>
-      <div className="linksContainer">
-        <a href="/" className="navLink">
-          Home
-        </a>
-        <a href="/news" className="navLink">
-          News
-        </a>
-        <a
-          href="https://smarter.nj.gov/#contact"
-          target="_blank"
-          className="navLink"
-        >
-          Contact
-        </a>
+      <div className="mobileLinksContainer">
+        {" "}
+        <div className="linksContainer">
+          <a href="/" className="navLink">
+            Home
+          </a>
+          <a href="/news" className="navLink">
+            News
+          </a>
+          <a
+            href="https://smarter.nj.gov/#contact"
+            target="_blank"
+            className="navLink"
+          >
+            Contact
+          </a>
+        </div>
       </div>
     </nav>
   );

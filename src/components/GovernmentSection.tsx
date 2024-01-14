@@ -22,7 +22,7 @@ export function GovernmentSection() {
             Get in touch
           </a>
         </div>
-        <div>
+        <div className="imageCont">
           <img
             src={GenericPeople}
             className="genericPeople"

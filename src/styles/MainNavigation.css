@@ -1,3 +1,75 @@
+@media (max-width: 1000px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust the top position according to your design */
+    right: 0;
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+  }
+
+  .show {
+    display: flex;
+  }
+
+  .main-navigation {
+    padding: 0 1em !important; /* Adjust padding for smaller screens */
+    position: relative;
+    flex-direction: row-reverse;
+  }
+
+  #navLeftContainer {
+    margin-top: 5px;
+    order: 1; /* Move left container to the top in the column layout */
+  }
+
+  #leftNavText {
+    margin-left: 5px;
+    padding: 0 10px;
+  }
+
+  #navRightContainer {
+    display: none; /* Hide right container by default */
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hamburger-line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+
+  .njHeaderLink {
+    margin: 10px 0; /* Adjust spacing for smaller screens */
+  }
+
+  #bold {
+    font-weight: 700;
+  }
+
+  .subLink {
+    font-size: 14px;
+    color: inherit;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+  }
+
+  .subLink:last-child {
+    border-bottom: none; /* Remove bottom border for the last child */
+  }
+}
+
 .main-navigation {
   display: flex;
   justify-content: space-between;
@@ -33,6 +105,10 @@
   display: flex;
   color: inherit;
   text-decoration: none;
+}
+
+.njCrestLogo {
+  max-height: 30px;
 }
 
 #bold {

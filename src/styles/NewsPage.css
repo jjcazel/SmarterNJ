@@ -42,6 +42,7 @@ h2 {
   margin-bottom: 30px;
   padding: 20px 40px;
   display: flex;
+  margin-right: 80px;
 }
 
 .articleTitle {
@@ -72,4 +73,28 @@ h2 {
 
 p {
   margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .titles {
+    padding-left: 20px;
+  }
+
+  .newsContainer {
+    padding-top: 40px;
+  }
+
+  .articleTile {
+    flex-direction: column;
+    margin-right: 40px;
+  }
+
+  .newsItemsContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .articleTileRight {
+    margin-left: 0; /* Remove the left margin for mobile */
+  }
 }
