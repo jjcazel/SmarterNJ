@@ -1,13 +1,17 @@
 # My Smarter NJ Clone
 
-I created this project in tandem with my submission for the open [full-stack software engineer position](https://innovation.nj.gov/join/full-stack-software-engineer/?utm_source=All-hands+job+board&utm_medium=getro.com&gh_src=All-hands+job+board) in the Office of Innovation at the State of New Jersey. It is viewable [here](https://jjcazel.github.io/). I used the [Smarter NJ site](https://smarter.nj.gov/) as my template. I noticed that the `/news` page has some "dummy" text and the buttons weren't working. I addressed that in my app by fetching a [public news API](https://newsapi.ai/) and returning any news that matches the keyword, *"New Jersey"*.
+I created this project in tandem with my submission for the open [full-stack software engineer position](https://innovation.nj.gov/join/full-stack-software-engineer/?utm_source=All-hands+job+board&utm_medium=getro.com&gh_src=All-hands+job+board) in the Office of Innovation at the State of New Jersey. It is viewable [here](https://jjcazel.github.io/). Inspired by the [Smarter NJ site](https://smarter.nj.gov/), I embarked on this journey to not just replicate but enhance the user experience. The original site's `/news` page, with its placeholder text and unresponsive buttons, presented a challenge I was eager to tackle. By integrating a [public news API](https://newsapi.ai/) my version dynamically curates news articles related to *New Jersey*, ensuring that fresh, relevant content is always at the user's fingertips.
 
-I created the UI using React + Vite + TypeScript + CSS. I used standard functional components while using React hooks to fetch an API and manage the returned data. I'm hosting this on Github Pages and you can view my code [here](https://github.com/jjcazel/jjcazel.github.io).
+## Crafting the User Interface  
+I created the UI using modern web development practices and React + Vite + TypeScript + CSS. I used standard functional components while using React hooks to fetch an API and manage the returned data. I'm hosting this on Github Pages and you can view my code [here](https://github.com/jjcazel/jjcazel.github.io).
 
-Based on my timeline I decided not to copy every section of the home page. I was thinking of possibly using a CSS framework to speed up the styling process, but I am very familiar with CSS so the development time was reasonable. I would use the SASS pre-processor on future projects. ToDo: Add skeleton loading states to the News Page while the API is fetching and further tweak styling to meet best web practices. I can also add a database and user authentication to allow users to create accounts.
-Thanks!
+Despite the time constraints, I focused on delivering quality over quantity, choosing to reimagine key sections of the home page rather than a full-scale duplication. My proficiency with CSS enabled me to forego CSS frameworks, though I'm a huge fan of TailwindCSS these days. 
+### Future Roadmap
+- Enhanced User Engagement: Introducing skeleton loading screens for the News Page to maintain user engagement during data fetching.
+- Style Optimization: Continuous refinement of styling to align with the latest web design standards.
+- Extended Functionality: Potential integration of a database and user authentication system to support personalized user experiences.
 
-## My code to fetch the News API
+## Dive into the Code: Fetching the News API
 
 ```ts
 interface Article {
@@ -50,4 +54,6 @@ export function NewsPage() {
       });
   }, []);
 ```
+
+Thank you for exploring my project! Your feedback and suggestions are warmly welcomed as I continue to evolve this platform.
 
